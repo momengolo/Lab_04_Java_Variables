@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // ---------- Part 1a: int variables ----------
+
         int intOperandA = 13;
         int intOperandB = 5;
         int intSum = 0;
@@ -11,7 +11,6 @@ public class Main {
         int intQuotient = 0;
         int intModulo = 0;
 
-        // ---------- Part 1a: double variables ----------
         double doubleOperandA = 13.50;
         double doubleOperandB = 5.25;
         double doubleSum = 0.0;
@@ -19,7 +18,6 @@ public class Main {
         double doubleDifference = 0.0;
         double doubleQuotient = 0.0;
 
-        // ---------- int arithmetic ----------
         intSum = intOperandA + intOperandB;
         System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
 
@@ -37,7 +35,7 @@ public class Main {
 
         System.out.println();
 
-        // ---------- double arithmetic ----------
+
         doubleSum = doubleOperandA + doubleOperandB;
         System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
 
@@ -52,7 +50,7 @@ public class Main {
 
         System.out.println();
 
-        // ---------- Part 1b: meaningful variables of each type ----------
+
         double myLunchCost = 12.50;
         int numberOfKidsInFamily = 3;
         boolean isItRaining = false;
@@ -60,7 +58,7 @@ public class Main {
         int myFavoriteNumber = 7;
         double myShoeSize = 10.5;
         String myBirthMonth = "March";
-        String myFullName = "Your Name Here";
+        String myFullName = "Omar Morsi";
 
         System.out.println("The cost of my lunch is: " + myLunchCost);
         System.out.println("The number of kids in my family is: " + numberOfKidsInFamily);
